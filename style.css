@@ -1,0 +1,39 @@
+body{
+    background-color: slateblue;
+    display: flex;
+    justify-content: center;
+    margin: 250px 0 0 0;
+}
+.digital-watch{
+    background-color: rgb(34, 34, 34, 1);
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 25px;
+    box-shadow: 2px 2px 1px rgb(218, 148, 18, 1);
+}
+h1{
+    color: gold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.watch{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(248, 96, 25);
+    width: 250px;
+    height: 75px;
+}
+#hours, #minutes, #seconds{
+    font-size: 35px;
+    margin:10px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    color: gold;
+    background-color: rgba(0, 0, 0, 0.685);
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+}
