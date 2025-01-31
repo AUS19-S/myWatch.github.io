@@ -8,12 +8,12 @@ let watch = setInterval(()=>{
     let m = time.getMinutes();
     let s = time.getSeconds();
 
-    if(h > 0 && h < 12){
-        alert("Good Morning!")
-    } else if( h > 12 && h < 18){
-        alert("Good Afternoon!")
-    } else {
-        alert("Good evening")
+    if(h < 12){
+        html.style.backgroundColor = "#445566";
+    } else if(h < 18){
+        html.style.backgroundColor = "gold";
+    } else if(h > 18){
+        html.style.backgroundColor = "#000000";
     }
 
     if(s < 10) s = "0" + s;
