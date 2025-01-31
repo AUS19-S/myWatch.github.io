@@ -10,9 +10,9 @@ let watch = setInterval(()=>{
 
     if(h < 12){
         html.style.backgroundColor = "#445566";
-    } else if(h < 18){
+    } else if(h > 12){
         html.style.backgroundColor = "gold";
-    } else if(h > 18){
+    } else if(h >= 18){
         html.style.backgroundColor = "#000000";
     }
 
